@@ -1,0 +1,8 @@
+#modulo vim para python https://github.com/davidhalter/jedi-vim
+pip install line_profiler
+
+kernprof --line-by-line ejemplo_profile.py
+
+#abrir el fichero
+#-m le decimos a python que ejecute un module
+python -m line_profiler profiling.py.lproff
